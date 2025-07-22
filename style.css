@@ -71,3 +71,30 @@ footer {
     background: #222;
     color: white;
 }
+
+.about {
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about p {
+    font-size: 1.1rem;
+    margin-bottom: 1.2rem;
+    color: #444;
+}
+
+.about .btn {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    background: #6c5ce7;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
