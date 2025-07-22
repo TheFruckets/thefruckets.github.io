@@ -1,40 +1,46 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/webstorm-icon-logo.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>WS playground</title>
-  <link rel="stylesheet" href="/style.css">
+  <title>The Fruckets</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<header class="logo">
-  <a href="https://www.jetbrains.com/webstorm/">
-    <img src="/webstorm-logo.svg" alt="WebStorm logo" width="344"
-         height="90">
-  </a>
+
+<!-- Navigation -->
+<header class="navbar">
+  <h1 class="logo">The Fruckets</h1>
+  <nav>
+    <ul>
+      <li><a href="about.html">About</a></li>
+      <li><a href="team.html">Team</a></li>
+      <li><a href="games.html">Games</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="awards.html">Awards</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
 </header>
-<main id="app">
-  <h1 class="title">
-    Thank you for trying it out. <br /> Your first project is up and running
-    now.
-  </h1>
-  <section class="counter">
-    <div class="counter-info">
-      <p class="counter-text">Counter is</p>
-      <p class="counter-value" id="counter-value"></p>
-    </div>
-    <div class="counter-interaction">
-      <button id="increaseByOne" type="button">+1</button>
-      <button id="increaseByTwo" type="button">+2</button>
-      <button id="decreaseByOne" type="button">-1</button>
-      <button id="decreaseByTwo" type="button">-2</button>
-    </div>
-  </section>
-</main>
-<footer class="technologies">
-  <img src="/technologies.svg" alt="List of supported technologies">
+
+<!-- Hero Section -->
+<section class="hero">
+  <h2>Indie Game Studio</h2>
+  <p>Creating weird, wild, and wonderful games — one pixel at a time.</p>
+  <a href="games.html" class="btn">🎮 Explore Our Games</a>
+</section>
+
+<!-- Featured Game -->
+<section class="featured-game">
+  <h3>🎯 Featured Game: Cancer Crusher</h3>
+  <p>A fast-paced clicker game where you fight off cancer cells.</p>
+  <a href="https://the-fruckets.itch.io/cancer-crusher" target="_blank" class="btn">▶️ Play on itch.io</a>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2025 The Fruckets. All rights reserved.</p>
 </footer>
-<script type="module" src="/src/main.ts"></script>
+
 </body>
 </html>
