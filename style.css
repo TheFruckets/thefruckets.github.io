@@ -278,3 +278,48 @@ footer {
     color: #777;
     font-size: 0.85rem;
 }
+
+.awards {
+    padding: 3rem 2rem;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.awards h2 {
+    margin-bottom: 1rem;
+}
+
+.awards-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.award-card {
+    background: white;
+    padding: 1rem;
+    border-left: 4px solid #00cec9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+    text-align: left;
+}
+
+.award-card h3 {
+    margin-top: 0;
+}
+
+.award-card p {
+    font-size: 0.95rem;
+    margin: 0.3rem 0;
+}
+
+.award-card a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: #0984e3;
+    font-weight: bold;
+}
+
+
