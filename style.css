@@ -227,3 +227,54 @@ footer {
     font-size: 0.95rem;
     color: #555;
 }
+
+.portfolio {
+    padding: 3rem 2rem;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.portfolio h2 {
+    margin-bottom: 1rem;
+}
+
+.asset-library, .dev-logs {
+    margin-top: 2.5rem;
+    text-align: left;
+}
+
+.asset-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.asset-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.asset-card h4 {
+    margin: 0.5rem 0;
+}
+
+.dev-log {
+    background: #fff;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border-left: 4px solid #6c5ce7;
+    border-radius: 6px;
+}
+
+.dev-log h4 {
+    margin: 0.2rem 0;
+}
+
+.dev-log small {
+    color: #777;
+    font-size: 0.85rem;
+}
