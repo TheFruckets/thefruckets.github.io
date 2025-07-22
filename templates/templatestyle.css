@@ -1,0 +1,84 @@
+body.dark-bg {
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    max-width: 1200px;
+    padding: 3rem;
+    margin: auto;
+    align-items: stretch; /* 🔥 this is the key */
+}
+
+.profile-left,
+.profile-center,
+.profile-photo {
+    background: #2c2c2c;
+    padding: 1.5rem;
+    border-radius: 10px;
+    justify-content: space-between; /* optional */
+}
+
+.profile-left p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.profile-center h4 {
+    margin-top: 2rem;
+    font-size: 0.95rem;
+    border-top: 2px solid #555;
+    padding-top: 0.5rem;
+}
+
+.tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+    gap: 1rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    justify-items: center;
+}
+
+.social-links a {
+    color: #f1f1f1;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 0.5rem;
+}
+
+.cv-download {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: #6c5ce7;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.profile-photo img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+@media (max-width: 900px) {
+    .profile-container {
+        grid-template-columns: 1fr;
+    }
+
+    .profile-photo img {
+        max-width: 100%;
+    }
+}
